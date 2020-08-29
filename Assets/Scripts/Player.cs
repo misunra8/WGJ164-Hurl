@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     public float speed;
     public KeyCode forward, left, right, backwards;
+    public float xSensitivity, ySensitivity;
 
     private Camera cam;
     // Start is called before the first frame update
@@ -33,9 +34,15 @@ public class Player : MonoBehaviour
 
         transform.position += direction.normalized * speed * Time.deltaTime;
 
-        Vector3 rotateValue = new Vector3(0f, -Input.GetAxis("Mouse X"), 0f);
+        Vector3 rotateValue = new Vector3(0f, -Input.GetAxis("Mouse X"), 0f) * xSensitivity;
         transform.eulerAngles -= rotateValue;
-        rotateValue = new Vector3(Input.GetAxis("Mouse Y"), 0f);
-        cam.transform.eulerAngles -= rotateValue;
+        rotateValue = new Vector3(Input.GetAxis("Mouse Y"), 0f) * ySensitivity;
+        Vector3 currentCamRotation = cam.transform.eulerAngles - rotateValue;
+        if (currentCamRotation.x < 271 && currentCamRotation.x > 180) {
+            currentCamRotation.x = 271;
+        } else if (currentCamRotation.x > 89 && currentCamRotation.x < 180) {
+            currentCamRotation.x = 89;
+        }
+        cam.transform.eulerAngles = currentCamRotation;
     }
 }
