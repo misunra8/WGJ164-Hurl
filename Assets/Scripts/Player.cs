@@ -33,8 +33,9 @@ public class Player : MonoBehaviour
 
         transform.position += direction.normalized * speed * Time.deltaTime;
 
-        Vector3 rotateValue = new Vector3(Input.GetAxis("Mouse Y"), -Input.GetAxis("Mouse X"), 0f);
-        transform.eulerAngles = transform.eulerAngles - rotateValue;
-        //transform.rotation = Quaternion.Euler(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"), 0f);
+        Vector3 rotateValue = new Vector3(0f, -Input.GetAxis("Mouse X"), 0f);
+        transform.eulerAngles -= rotateValue;
+        rotateValue = new Vector3(Input.GetAxis("Mouse Y"), 0f);
+        cam.transform.eulerAngles -= rotateValue;
     }
 }
