@@ -1281,12 +1281,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3384ffb3ced374482a9caec747d715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  testPrefab: {fileID: 5098095240523418106, guid: 32ec1711231777d40a27ead8c21466bc,
+  throwing: {fileID: 5028096182924066968, guid: b69b77a3db94c2a4abec4d4ed916a6a9,
+    type: 3}
+  targetPrefab: {fileID: 5098095240523418106, guid: 32ec1711231777d40a27ead8c21466bc,
     type: 3}
   targeting:
     serializedVersion: 2
     m_Bits: 4294967295
   maxDist: 50
+  throwSpeed: 35
 --- !u!1 &1213753030
 GameObject:
   m_ObjectHideFlags: 0

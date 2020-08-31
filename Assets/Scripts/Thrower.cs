@@ -2,12 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Thrower : MonoBehaviour
-{
-    public GameObject testPrefab;
-    public LayerMask targeting;
-    public float maxDist;
+public class Thrower : MonoBehaviour {
+
+    [SerializeField]
+    private ThrowableItem throwing;
+
+    [SerializeField]
+    private GameObject targetPrefab;
+
+    [SerializeField]
+    private LayerMask targeting;
+
+    [SerializeField]
+    private float maxDist;
+
+    [SerializeField]
+    private float throwSpeed;
+
     private Camera cam;
+
+    private Transform currentTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,8 +36,13 @@ public class Thrower : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, maxDist, targeting.value)) {
                 Debug.DrawLine(ray.origin, hit.point);
-                Instantiate(testPrefab, hit.point, Quaternion.identity);
+                currentTarget = Instantiate(targetPrefab, hit.point, Quaternion.identity).transform;
             }
+        }
+        if (Input.GetMouseButtonDown(0) && currentTarget) {
+            ThrowableItem ti = Instantiate(throwing, transform.position, Quaternion.identity).GetComponent<ThrowableItem>();
+            ti.SetTarget(currentTarget);
+            ti.Throw(transform.position, cam.transform.forward, throwSpeed);
         }
     }
 }
