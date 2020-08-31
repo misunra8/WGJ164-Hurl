@@ -4,35 +4,35 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float speed;
-    public KeyCode forward, left, right, backwards;
-    public float xSensitivity, ySensitivity;
+    [SerializeField]
+    private float speed;
+
+    [SerializeField]
+    private float xSensitivity;
+    [SerializeField]
+    private float ySensitivity;
 
     private Camera cam;
+
+    private Rigidbody rigidbody;
     // Start is called before the first frame update
     void Start()
     {
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction = Vector3.zero;
-        if (Input.GetKey(forward) && !Input.GetKey(backwards)) {
-            direction += transform.forward;
-        } else if (Input.GetKey(backwards) && !Input.GetKey(forward)) {
-            direction -= transform.forward;
-        }
+        Vector2 playerInput;
+        playerInput.x = Input.GetAxis("Horizontal");
+        playerInput.y = Input.GetAxis("Vertical");
+        playerInput = Vector2.ClampMagnitude(playerInput, 1f);
+        Vector3 direction = Quaternion.Euler(0f, cam.transform.eulerAngles.y, 0f) * new Vector3(playerInput.x, 0f, playerInput.y);
 
-        if (Input.GetKey(right) && !Input.GetKey(left)) {
-            direction += transform.right;
-        } else if (Input.GetKey(left) && !Input.GetKey(right)) {
-            direction -= transform.right;
-        }
-
-        transform.position += direction.normalized * speed * Time.deltaTime;
+        rigidbody.velocity = direction * speed;
 
         Vector3 rotateValue = new Vector3(0f, -Input.GetAxis("Mouse X"), 0f) * xSensitivity;
         transform.eulerAngles -= rotateValue;
