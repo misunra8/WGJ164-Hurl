@@ -15,6 +15,8 @@ public class ThrowableItem : MonoBehaviour
     private Vector3 circleCentre;
     private float radius;
     private float angle;
+
+    private Vector3 currentDirection;
     
     public void SetTarget(Transform target) {
         endTarget = target;
@@ -74,7 +76,26 @@ public class ThrowableItem : MonoBehaviour
                     travelled
                 );
             }
-            transform.position = circleCentre + (currentAngle.normalized * radius);
+            Vector3 nextPos = circleCentre + (currentAngle.normalized * radius);
+            currentDirection = nextPos - transform.position;
+            transform.position = nextPos;
+        }
+    }
+
+    public Vector3 GetMovingDirection() {
+        return currentDirection;
+    }
+
+    private void OnDrawGizmos() {
+        Gizmos.DrawCube(transform.position + currentDirection.normalized*3, Vector3.one);
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        Debug.Log("Hit a trigger: " + other);
+        Switch s = other.gameObject.GetComponent<Switch>();
+        if (s) {
+            Debug.Log("Hit a switch");
+            s.CheckLeverSwitch(currentDirection);
         }
     }
 }
