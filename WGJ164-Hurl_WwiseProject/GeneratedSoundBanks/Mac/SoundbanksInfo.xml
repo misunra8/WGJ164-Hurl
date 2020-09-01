@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="529726532" Name="End" ObjectPath="\Events\Default Work Unit\End" DurationType="OneShot" DurationMin="9.600022" DurationMax="9.600022">
+					<IncludedMemoryFiles>
+						<File Id="266181591" Language="SFX">
+							<ShortName>end3_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end3_4B_100BPM_Post3B_10C4C929.wem</Path>
+						</File>
+						<File Id="613644963" Language="SFX">
+							<ShortName>end4_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end4_4B_100BPM_Post3B_10C4C929.wem</Path>
+						</File>
+						<File Id="970066183" Language="SFX">
+							<ShortName>end2_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end2_4B_100BPM_Post3B_10C4C929.wem</Path>
+						</File>
+						<File Id="977807801" Language="SFX">
+							<ShortName>end1_4B_100BPM_Post3B.wav</ShortName>
+							<Path>SFX\end1_4B_100BPM_Post3B_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

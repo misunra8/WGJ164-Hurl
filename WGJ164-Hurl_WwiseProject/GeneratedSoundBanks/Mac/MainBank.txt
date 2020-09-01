@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	529726532	End			\Default Work Unit\End	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	266181591	end3_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end3_4B_100BPM_Post3B_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end3_4B_100BPM_Post3B		1693508
+	613644963	end4_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end4_4B_100BPM_Post3B_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end4_4B_100BPM_Post3B		1693508
+	970066183	end2_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end2_4B_100BPM_Post3B_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end2_4B_100BPM_Post3B		1693508
+	977807801	end1_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end1_4B_100BPM_Post3B_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end1_4B_100BPM_Post3B		1693508
+
