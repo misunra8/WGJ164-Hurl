@@ -16,6 +16,9 @@ public class Switch : MonoBehaviour
 
     private float currentSwitchTime;
 
+    [SerializeField]
+    private Door doorTarget;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -44,6 +47,9 @@ public class Switch : MonoBehaviour
     private void SwapLever() {
         on = !on;
         currentSwitchTime = 0f;
+        if (doorTarget) {
+            doorTarget.SetOpen(on);
+        }
     }
 
     public void CheckLeverSwitch(Vector3 direction) {
