@@ -632,6 +632,265 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Spin" ID="{32A1E63B-4AD4-456E-88D7-8D02A56D04C5}" ShortID="498097789">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{55B80EAD-6883-431E-A080-41DF548D9CD7}" ShortID="142185807">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{C2284767-C58D-497E-8558-AB813619E255}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>-4.82524</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="spin" ID="{D165F914-1C52-49A3-B6EF-8DBECB1581AD}" ShortID="348303686">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{C3D7E751-6AF4-4659-991C-BCB5A282615F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.290090392321312"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1066133608"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{C3D7E751-6AF4-4659-991C-BCB5A282615F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_01" ID="{49659186-9565-4DF7-B25D-3919C872FAF4}" ShortID="274455991">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{97907BA5-9786-484B-94A5-1F23A32332ED}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.244286646165315"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.519109123101296"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="807786006"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{97907BA5-9786-484B-94A5-1F23A32332ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_02" ID="{DFE36642-552F-4462-8CAB-26261B43A6FC}" ShortID="380969958">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{DAFA5DFA-1B32-4ACC-8BAC-ABAA983002F4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.534377038486628"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.870271176963938"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="910798631"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{DAFA5DFA-1B32-4ACC-8BAC-ABAA983002F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_03" ID="{474992CB-2ACD-4139-A96E-9A44EFAC14B1}" ShortID="209368844">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{45061C6E-880B-42DC-852B-E0B7AC6CC864}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.732859938495947"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.00768241543192"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="724655351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{45061C6E-880B-42DC-852B-E0B7AC6CC864}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_04" ID="{FAFB302D-6E76-43F6-BD00-A26AEA0F4A60}" ShortID="326283049">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{3072AC78-984A-4E10-8A0C-B4B276F324AE}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.09928990774392"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.35884446929457"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="654083004"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{3072AC78-984A-4E10-8A0C-B4B276F324AE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_05" ID="{5A54A8DE-244A-467A-A998-ECDA89BADE85}" ShortID="152980628">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{1270D189-33EC-4682-9FBC-7183AAD35F04}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.81688193085453"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.12224023856118"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="46165723"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{1270D189-33EC-4682-9FBC-7183AAD35F04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spin_06" ID="{C404B18F-9153-4765-9E23-F4E3F7946239}" ShortID="745469551">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{D61E8D15-DD82-42C9-8946-F3C62E311A40}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.3207231385705"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.62608144627714"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="650031983"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter_com)" ID="{D61E8D15-DD82-42C9-8946-F3C62E311A40}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{1F4D334B-5245-4C4F-9C22-6DD554E7DFC3}"/>
+					</PositioningInfo>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

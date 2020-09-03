@@ -8,6 +8,7 @@
 						<ObjectRef Name="End" ID="{E7367E05-B82B-4540-ACEE-5096436A3337}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SwitchOn" ID="{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Theme" ID="{6F482241-7CFD-4621-B115-903EB0990E1D}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spin" ID="{C394531E-C58A-48F6-BBBD-68C4B6CB31B5}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{11D2E00F-A6F4-4A75-963C-38377389DF1F}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorOpen" ID="{73BDBAA0-5CAF-4F1F-8068-0E81BF548C09}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorClose" ID="{97E0FC57-83D3-4F68-BF38-34320016A0B1}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>

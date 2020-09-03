@@ -67,6 +67,7 @@ public class ThrowableItem : MonoBehaviour
     void Update()
     {
         if (currentTravelTime < travelTime) {
+            AkSoundEngine.PostEvent("Spin", gameObject);
             currentTravelTime = Mathf.Clamp(currentTravelTime + Time.deltaTime, 0f, travelTime);
             Vector3 currentAngle;
             float travelled = currentTravelTime / travelTime;

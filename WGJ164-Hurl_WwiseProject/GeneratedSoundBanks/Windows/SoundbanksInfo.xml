@@ -29,7 +29,7 @@
 					<IncludedMemoryFiles>
 						<File Id="119364568" Language="SFX">
 							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
-							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_A5E5C1EF.wem</Path>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_85A87296.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -37,7 +37,7 @@
 					<IncludedMemoryFiles>
 						<File Id="832277301" Language="SFX">
 							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
-							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_453FC094.wem</Path>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_7E7BCEA0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,19 +65,51 @@
 					<IncludedMemoryFiles>
 						<File Id="23002993" Language="SFX">
 							<ShortName>footsteps-4.wav</ShortName>
-							<Path>SFX\footsteps-4_6FA6066B.wem</Path>
+							<Path>SFX\footsteps-4_0DC178E8.wem</Path>
 						</File>
 						<File Id="688757800" Language="SFX">
 							<ShortName>footsteps-4.wav</ShortName>
-							<Path>SFX\footsteps-4_54F79A7F.wem</Path>
+							<Path>SFX\footsteps-4_E6B724C4.wem</Path>
 						</File>
 						<File Id="798329366" Language="SFX">
 							<ShortName>footsteps-4.wav</ShortName>
-							<Path>SFX\footsteps-4_08CAA606.wem</Path>
+							<Path>SFX\footsteps-4_AE019588.wem</Path>
 						</File>
 						<File Id="912638740" Language="SFX">
 							<ShortName>footsteps-4.wav</ShortName>
-							<Path>SFX\footsteps-4_C8142006.wem</Path>
+							<Path>SFX\footsteps-4_FE283C56.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="823131329" Name="Spin" ObjectPath="\Events\Default Work Unit\Spin" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.259555" DurationMax="0.335894">
+					<IncludedMemoryFiles>
+						<File Id="46165723" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_98AE66F9.wem</Path>
+						</File>
+						<File Id="650031983" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_FD73FD8F.wem</Path>
+						</File>
+						<File Id="654083004" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_75015026.wem</Path>
+						</File>
+						<File Id="724655351" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_8CE1B97B.wem</Path>
+						</File>
+						<File Id="807786006" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_1A82514C.wem</Path>
+						</File>
+						<File Id="910798631" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_0FF3C66E.wem</Path>
+						</File>
+						<File Id="1066133608" Language="SFX">
+							<ShortName>274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com).wav</ShortName>
+							<Path>SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_29394902.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -85,23 +117,23 @@
 					<IncludedMemoryFiles>
 						<File Id="244361029" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_1898C5F5.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_7745D114.wem</Path>
 						</File>
 						<File Id="378616860" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C3713498.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_BA63415D.wem</Path>
 						</File>
 						<File Id="509479799" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_EE1EBA91.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_119B366A.wem</Path>
 						</File>
 						<File Id="574114880" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_2B1BE81A.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_7B61DA42.wem</Path>
 						</File>
 						<File Id="715657970" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C605DFDC.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_932EB686.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -112,23 +144,23 @@
 					<IncludedMemoryFiles>
 						<File Id="184090203" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_A9CDA60D.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C8D73CC1.wem</Path>
 						</File>
 						<File Id="273081295" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_22DA73ED.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_AE936C1B.wem</Path>
 						</File>
 						<File Id="311435220" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_EE2574D2.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_2EF66CDA.wem</Path>
 						</File>
 						<File Id="842456180" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_9EBB04B4.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_58639B6C.wem</Path>
 						</File>
 						<File Id="843523197" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
-							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_078D5FBC.wem</Path>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_A96F8BC0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>

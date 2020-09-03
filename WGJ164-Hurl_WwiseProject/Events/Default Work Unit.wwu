@@ -80,6 +80,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Spin" ID="{C394531E-C58A-48F6-BBBD-68C4B6CB31B5}">
+					<ChildrenList>
+						<Action Name="" ID="{08DFC19F-02B1-4846-BE05-2CCD313432EC}" ShortID="50819427">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spin" ID="{32A1E63B-4AD4-456E-88D7-8D02A56D04C5}" WorkUnitID="{9608B390-511F-4BCA-96A4-891BC7E28CE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

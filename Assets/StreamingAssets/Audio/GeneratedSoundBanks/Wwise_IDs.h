@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID END = 529726532U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
+        static const AkUniqueID SPIN = 823131329U;
         static const AkUniqueID SWITCHOFF = 3953897988U;
         static const AkUniqueID SWITCHON = 1242499422U;
         static const AkUniqueID THEME = 1319017392U;
