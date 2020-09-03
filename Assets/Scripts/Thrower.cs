@@ -21,7 +21,7 @@ public class Thrower : MonoBehaviour {
 
     private Camera cam;
 
-    private Transform currentTarget;
+    private Switch currentTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,13 +35,19 @@ public class Thrower : MonoBehaviour {
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f));
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit, maxDist, targeting.value)) {
-                Debug.DrawLine(ray.origin, hit.point);
-                currentTarget = Instantiate(targetPrefab, hit.point, Quaternion.identity).transform;
+                if (hit.collider.GetComponent<Switch>()) {
+                    Switch newTarget = hit.collider.GetComponent<Switch>();
+                    if (currentTarget && currentTarget != newTarget) {
+                        currentTarget.SetAim(false);
+                    }
+                    currentTarget = newTarget;
+                    currentTarget.SetAim(true);
+                }
             }
         }
         if (Input.GetMouseButtonDown(0) && currentTarget) {
             ThrowableItem ti = Instantiate(throwing, transform.position, Quaternion.identity).GetComponent<ThrowableItem>();
-            ti.SetTarget(currentTarget);
+            ti.SetTarget(currentTarget.transform);
             ti.Throw(transform.position, cam.transform.forward, throwSpeed);
         }
     }
