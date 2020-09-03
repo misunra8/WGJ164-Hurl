@@ -69,10 +69,12 @@ public class Door : MonoBehaviour
             AkSoundEngine.PostEvent("DoorClose", gameObject);
         }
         if (open != state) {
-            
             open = state;
             currentTransitionTime = 0f;
             doorCollider.enabled = !open;
+            if (counterDoor) {
+                counterDoor.SetOpen(!open);
+            }
         }
     }
     
