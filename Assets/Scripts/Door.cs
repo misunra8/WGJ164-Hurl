@@ -38,7 +38,6 @@ public class Door : MonoBehaviour
                 top = t;
             }
         }
-        doorCollider = GetComponent<BoxCollider>();
         if (counterDoor) {
             counterDoor.SetOpen(!open);
         }
@@ -74,6 +73,9 @@ public class Door : MonoBehaviour
         if (open != state) {
             open = state;
             currentTransitionTime = 0f;
+            if (doorCollider == null) {
+                doorCollider = GetComponent<BoxCollider>();
+            }
             doorCollider.enabled = !open;
             if (counterDoor) {
                 counterDoor.SetOpen(!open);
