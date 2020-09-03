@@ -4,7 +4,9 @@
 		<UserProjectSettings Name="" ID="{9D49FE66-DD5D-4C64-A405-081A2684BF27}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\misun\Desktop\Early Projects\WGJ142-Hurl-Sound\"/>
+				<Property Name="Event Action List\{11D2E00F-A6F4-4A75-963C-38377389DF1F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6F482241-7CFD-4621-B115-903EB0990E1D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{73BDBAA0-5CAF-4F1F-8068-0E81BF548C09}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{97E0FC57-83D3-4F68-BF38-34320016A0B1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}\x64_Expand States" Type="string" Value=""/>
@@ -30,6 +32,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="JfqHt0YmaUOuRhQikNvgQA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="MhaNGxoRakSFaaLKdjvWegGEWD7/////mcjq1FnJK0q5TjJkeNYnOAGEWD7/////"/>
+				<Property Name="Interactive Music\x64_{5A7C781F-5615-49F6-819A-920F80AD0103} - SegmentEditorZoomInfo" Type="string" Value="n62PIMEGwz+amZmZmZnxPwAAAAAAiHJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

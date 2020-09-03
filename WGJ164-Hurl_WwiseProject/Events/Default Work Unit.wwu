@@ -58,6 +58,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Theme" ID="{6F482241-7CFD-4621-B115-903EB0990E1D}">
+					<ChildrenList>
+						<Action Name="" ID="{10FC5874-DFA2-47D8-935F-9C9FE17064FB}" ShortID="246937647">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Theme" ID="{7E211132-C7E3-4077-A4E9-E86381E3D988}" WorkUnitID="{F7189C2C-F719-40D9-BA89-42ED8CEAACE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{11D2E00F-A6F4-4A75-963C-38377389DF1F}">
+					<ChildrenList>
+						<Action Name="" ID="{8FCBB046-FE7E-41EA-9F89-029CB6074A1C}" ShortID="155724867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{29BBC57F-A4A4-4216-A5C3-99A70C7C657A}" WorkUnitID="{9608B390-511F-4BCA-96A4-891BC7E28CE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
