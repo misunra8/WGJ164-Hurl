@@ -43,14 +43,12 @@ public class Player : MonoBehaviour
         if (time >= Time.deltaTime) {
             time = time - timeBetween;
             if (direction == Vector3.zero) {
-                Debug.Log("not moving");
             }
             else {
                 AkSoundEngine.PostEvent("Footsteps", gameObject);
             }
 
         }
-
 
         rigidbody.velocity = direction * speed;
 
