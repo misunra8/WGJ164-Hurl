@@ -17,6 +17,11 @@ public class ThrowableItem : MonoBehaviour
     private float angle;
 
     private Vector3 currentDirection;
+
+    [SerializeField]
+    private float rotateSpeed;
+
+    private Vector3 planeNormal;
     
     public void SetTarget(Transform target) {
         endTarget = target;
@@ -53,6 +58,9 @@ public class ThrowableItem : MonoBehaviour
         float travelDist = 2 * Mathf.PI * radius * (angle / 360f);
         travelTime = travelDist / speed;
         currentTravelTime = 0f;
+
+        planeNormal = arcPlane.normal;
+        transform.rotation = Quaternion.FromToRotation(transform.right, arcPlane.normal) * transform.rotation;
     }
 
     // Update is called once per frame
@@ -79,6 +87,7 @@ public class ThrowableItem : MonoBehaviour
             Vector3 nextPos = circleCentre + (currentAngle.normalized * radius);
             currentDirection = nextPos - transform.position;
             transform.position = nextPos;
+            transform.RotateAround(planeNormal, rotateSpeed * Time.deltaTime);
         }
     }
 
@@ -90,12 +99,14 @@ public class ThrowableItem : MonoBehaviour
         Gizmos.DrawCube(transform.position + currentDirection.normalized*3, Vector3.one);
     }
 
-    private void OnTriggerEnter(Collider other) {
-        Debug.Log("Hit a trigger: " + other);
-        Switch s = other.gameObject.GetComponent<Switch>();
+    private void OnCollisionEnter(Collision collision) {
+        Switch s = collision.gameObject.GetComponent<Switch>();
         if (s) {
             Debug.Log("Hit a switch");
             s.CheckLeverSwitch(currentDirection);
+        }
+        if (currentTravelTime < travelTime) {
+            currentTravelTime = travelTime;
         }
     }
 }
