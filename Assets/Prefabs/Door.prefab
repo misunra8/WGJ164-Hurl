@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counterDoor: {fileID: 0}
-  transitionTime: 0
+  transitionTime: 0.75
 --- !u!65 &2480321776690856669
 BoxCollider:
   m_ObjectHideFlags: 0
