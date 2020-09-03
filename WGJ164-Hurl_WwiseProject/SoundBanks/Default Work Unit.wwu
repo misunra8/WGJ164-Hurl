@@ -7,6 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="End" ID="{E7367E05-B82B-4540-ACEE-5096436A3337}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SwitchOn" ID="{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorOpen" ID="{73BDBAA0-5CAF-4F1F-8068-0E81BF548C09}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorClose" ID="{97E0FC57-83D3-4F68-BF38-34320016A0B1}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SwitchOff" ID="{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

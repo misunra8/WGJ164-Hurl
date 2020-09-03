@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DOORCLOSE = 3638457343U;
+        static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID END = 529726532U;
         static const AkUniqueID SWITCHOFF = 3953897988U;
         static const AkUniqueID SWITCHON = 1242499422U;

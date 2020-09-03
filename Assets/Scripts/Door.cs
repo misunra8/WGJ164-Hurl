@@ -60,7 +60,13 @@ public class Door : MonoBehaviour
     }
 
     public void SetOpen(bool state) {
+        if (state) {
+            AkSoundEngine.PostEvent("DoorOpen", gameObject);
+        } else {
+            AkSoundEngine.PostEvent("DoorClose", gameObject);
+        }
         if (open != state) {
+            
             open = state;
             currentTransitionTime = 0f;
         }

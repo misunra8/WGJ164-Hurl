@@ -399,6 +399,102 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="doorOpen" ID="{597FA439-2FF6-4C2C-95E1-040913278CDC}" ShortID="727990221">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0F7B7CB8-0B10-4B02-BF21-E5CC981D9C91}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="278"/>
+											<Property Name="Min" Type="Real64" Value="-707"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="403075__fpj666__homemade-hydraulic-hoist" ID="{331A2F59-55B8-440E-84BF-0CA3E8A9AB07}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.852516819399936"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="8.22678730720938"/>
+								<Property Name="TrimEnd" Type="Real64" Value="9.61212713873428"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>403075__fpj666__homemade-hydraulic-hoist.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="832277301"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="403075__fpj666__homemade-hydraulic-hoist" ID="{331A2F59-55B8-440E-84BF-0CA3E8A9AB07}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="doorClose" ID="{DB14B800-F722-4A60-8923-964362A30C13}" ShortID="991221738">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{D7C647FD-977C-4F8F-B2A3-A558D6B77E50}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="177"/>
+											<Property Name="Min" Type="Real64" Value="-657"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="403075__fpj666__homemade-hydraulic-hoist" ID="{190FDFA8-6BFD-4307-877D-B42A6FA2350F}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.95908142182493"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="17.0290234675137"/>
+								<Property Name="TrimEnd" Type="Real64" Value="18.4783020604936"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>403075__fpj666__homemade-hydraulic-hoist.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="119364568"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="403075__fpj666__homemade-hydraulic-hoist" ID="{190FDFA8-6BFD-4307-877D-B42A6FA2350F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

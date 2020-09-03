@@ -5,6 +5,8 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\misun\Desktop\Early Projects\WGJ142-Hurl-Sound\"/>
 				<Property Name="Event Action List\{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{73BDBAA0-5CAF-4F1F-8068-0E81BF548C09}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{97E0FC57-83D3-4F68-BF38-34320016A0B1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E7367E05-B82B-4540-ACEE-5096436A3337}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

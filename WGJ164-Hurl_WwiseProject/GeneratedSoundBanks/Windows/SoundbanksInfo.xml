@@ -21,6 +21,22 @@
 			<ShortName>MainBank</ShortName>
 			<Path>MainBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3638457343" Name="DoorClose" ObjectPath="\Events\Default Work Unit\DoorClose" DurationType="OneShot" DurationMin="1.408428" DurationMax="2.218194">
+					<IncludedMemoryFiles>
+						<File Id="119364568" Language="SFX">
+							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_489FD1AE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="1.279825" DurationMax="2.184074">
+					<IncludedMemoryFiles>
+						<File Id="832277301" Language="SFX">
+							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_7B84266A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="529726532" Name="End" ObjectPath="\Events\Default Work Unit\End" DurationType="OneShot" DurationMin="9.600022" DurationMax="9.600022">
 					<IncludedMemoryFiles>
 						<File Id="266181591" Language="SFX">

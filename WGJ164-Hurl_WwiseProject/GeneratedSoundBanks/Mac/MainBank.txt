@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	529726532	End			\Default Work Unit\End	
 	1242499422	SwitchOn			\Default Work Unit\SwitchOn	
+	1404805401	DoorOpen			\Default Work Unit\DoorOpen	
+	3638457343	DoorClose			\Default Work Unit\DoorClose	
 	3953897988	SwitchOff			\Default Work Unit\SwitchOff	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	119364568	doorClose	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403075__fpj666__homemade-hydraulic-hoist_489FD1AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\doorClose		22601
 	184090203	403560__lamamakesmusic__lever-small-on-off	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_A9CDA60D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOn\403560__lamamakesmusic__lever-small-on-off		8517
 	244361029	403560__lamamakesmusic__lever-small-on-off_03	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_1898C5F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOff\403560__lamamakesmusic__lever-small-on-off_03		5475
 	266181591	end3_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end3_4B_100BPM_Post3B_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end3_4B_100BPM_Post3B		50351
@@ -14,6 +17,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	574114880	403560__lamamakesmusic__lever-small-on-off_01	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_2B1BE81A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOff\403560__lamamakesmusic__lever-small-on-off_01		5122
 	613644963	end4_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end4_4B_100BPM_Post3B_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end4_4B_100BPM_Post3B		55587
 	715657970	403560__lamamakesmusic__lever-small-on-off_04	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_C605DFDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOff\403560__lamamakesmusic__lever-small-on-off_04		6308
+	832277301	doorOpen	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403075__fpj666__homemade-hydraulic-hoist_7B84266A.wem		\Actor-Mixer Hierarchy\Default Work Unit\doorOpen		20893
 	842456180	403560__lamamakesmusic__lever-small-on-off_01	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_9EBB04B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOn\403560__lamamakesmusic__lever-small-on-off_01		5434
 	843523197	403560__lamamakesmusic__lever-small-on-off_03	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_078D5FBC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SwitchOn\403560__lamamakesmusic__lever-small-on-off_03		4401
 	970066183	end2_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end2_4B_100BPM_Post3B_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end2_4B_100BPM_Post3B		97504
