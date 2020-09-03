@@ -103,6 +103,302 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SwitchOn" ID="{B6A68257-434C-49DC-AE86-6ED3E1C1BEB0}" ShortID="713494667">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off" ID="{8C5C2DDF-408B-446C-B176-633961CF11F6}" ShortID="948224208">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{AF68B578-51C4-4D98-9CD3-CCA50C719EDE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.397756132756133"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.12260332921047"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.9323211708926"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="184090203"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{AF68B578-51C4-4D98-9CD3-CCA50C719EDE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_01" ID="{0E026729-5CA6-4CA1-A576-619E2A32FE93}" ShortID="845542745">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{7BDEE49B-239E-463D-90DB-1A025B21E54A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.09120593692022"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.60260667903525"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="842456180"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{7BDEE49B-239E-463D-90DB-1A025B21E54A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_02" ID="{D97C5267-08CD-4428-A60C-8B91E0A4C34D}" ShortID="84482672">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{69FED005-B17B-421C-84E7-76D91F778890}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.7899025974026"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.34392006802721"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="273081295"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{69FED005-B17B-421C-84E7-76D91F778890}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_03" ID="{5AAE2018-77BC-44BE-B5CB-AF6CC39DA6E3}" ShortID="718718075">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{AF1D8630-7F8A-4D99-894F-4E9AF956A89B}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.142055761698619"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.539811894454751"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="843523197"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{AF1D8630-7F8A-4D99-894F-4E9AF956A89B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_04" ID="{E1F01B96-9308-431D-B58E-E287EA0CA141}" ShortID="786105545">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{A1E4ACE8-082B-431D-9A0F-511483E93A25}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.125589569161"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.40970109255824"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311435220"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{A1E4ACE8-082B-431D-9A0F-511483E93A25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="SwitchOff" ID="{9D3AEE9F-2F31-4B6F-AABF-0E51A0CADED7}" ShortID="984458166">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_05" ID="{52F5ED0E-4043-461C-A846-2D5D3DF68587}" ShortID="121870316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{DB409A49-CD1D-40C4-8241-13EBBE49008E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="8.38128994021851"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.72222376829519"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="378616860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{DB409A49-CD1D-40C4-8241-13EBBE49008E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_01" ID="{DDE0481C-08EB-4A0D-BA71-F6E390352BE5}" ShortID="995570235">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{DDB2642D-FF5F-441D-A2C4-9F289CEE7D7E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0852334570191713"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.554017470624614"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.994390331890331"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="574114880"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{DDB2642D-FF5F-441D-A2C4-9F289CEE7D7E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_02" ID="{88045DB8-1C33-4F62-89AE-CC2E45059155}" ShortID="748249137">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{1214FF90-87AE-41A2-B027-18A1819DF45C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.67064831993403"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.32410482374768"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509479799"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{1214FF90-87AE-41A2-B027-18A1819DF45C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_03" ID="{C8789140-139D-4E8C-A19F-A8E2EF2B04C5}" ShortID="308550359">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{377672E1-AF8E-4834-BED2-F1DB1468E468}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.98615723562152"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.48335240156669"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="244361029"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{377672E1-AF8E-4834-BED2-F1DB1468E468}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="403560__lamamakesmusic__lever-small-on-off_04" ID="{E999B0FD-7F19-4883-AD8C-582D776DF943}" ShortID="963207896">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{94F689C4-9EC7-4756-803D-9D1D425B4816}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.94652674706246"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.54316094619666"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>403560__lamamakesmusic__lever-small-on-off.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="715657970"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="403560__lamamakesmusic__lever-small-on-off" ID="{94F689C4-9EC7-4756-803D-9D1D425B4816}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

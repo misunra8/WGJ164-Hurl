@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SwitchOn" ID="{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}">
+					<ChildrenList>
+						<Action Name="" ID="{A7287DEA-110A-41F1-A1B5-9F7CEB0B7E9E}" ShortID="1058305765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwitchOn" ID="{B6A68257-434C-49DC-AE86-6ED3E1C1BEB0}" WorkUnitID="{9608B390-511F-4BCA-96A4-891BC7E28CE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SwitchOff" ID="{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}">
+					<ChildrenList>
+						<Action Name="" ID="{56BAFB41-A4D0-4E27-8D18-33847275DD1D}" ShortID="920013572">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SwitchOff" ID="{9D3AEE9F-2F31-4B6F-AABF-0E51A0CADED7}" WorkUnitID="{9608B390-511F-4BCA-96A4-891BC7E28CE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

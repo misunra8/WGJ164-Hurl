@@ -3,7 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{9D49FE66-DD5D-4C64-A405-081A2684BF27}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\misun\Desktop\Early Projects\WGJ162-Crab-Music\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\misun\Desktop\Early Projects\WGJ142-Hurl-Sound\"/>
+				<Property Name="Event Action List\{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E7367E05-B82B-4540-ACEE-5096436A3337}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">

@@ -25,19 +25,67 @@
 					<IncludedMemoryFiles>
 						<File Id="266181591" Language="SFX">
 							<ShortName>end3_4B_100BPM_Post3B.wav</ShortName>
-							<Path>SFX\end3_4B_100BPM_Post3B_10C4C929.wem</Path>
+							<Path>SFX\end3_4B_100BPM_Post3B_3F75BDB9.wem</Path>
 						</File>
 						<File Id="613644963" Language="SFX">
 							<ShortName>end4_4B_100BPM_Post3B.wav</ShortName>
-							<Path>SFX\end4_4B_100BPM_Post3B_10C4C929.wem</Path>
+							<Path>SFX\end4_4B_100BPM_Post3B_3F75BDB9.wem</Path>
 						</File>
 						<File Id="970066183" Language="SFX">
 							<ShortName>end2_4B_100BPM_Post3B.wav</ShortName>
-							<Path>SFX\end2_4B_100BPM_Post3B_10C4C929.wem</Path>
+							<Path>SFX\end2_4B_100BPM_Post3B_3F75BDB9.wem</Path>
 						</File>
 						<File Id="977807801" Language="SFX">
 							<ShortName>end1_4B_100BPM_Post3B.wav</ShortName>
-							<Path>SFX\end1_4B_100BPM_Post3B_10C4C929.wem</Path>
+							<Path>SFX\end1_4B_100BPM_Post3B_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3953897988" Name="SwitchOff" ObjectPath="\Events\Default Work Unit\SwitchOff" DurationType="OneShot" DurationMin="0.340934" DurationMax="0.653457">
+					<IncludedMemoryFiles>
+						<File Id="244361029" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_1898C5F5.wem</Path>
+						</File>
+						<File Id="378616860" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C3713498.wem</Path>
+						</File>
+						<File Id="509479799" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_EE1EBA91.wem</Path>
+						</File>
+						<File Id="574114880" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_2B1BE81A.wem</Path>
+						</File>
+						<File Id="715657970" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C605DFDC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1242499422" Name="SwitchOn" ObjectPath="\Events\Default Work Unit\SwitchOn" DurationType="OneShot" DurationMin="0.284112" DurationMax="0.809718">
+					<IncludedMemoryFiles>
+						<File Id="184090203" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_A9CDA60D.wem</Path>
+						</File>
+						<File Id="273081295" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_22DA73ED.wem</Path>
+						</File>
+						<File Id="311435220" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_EE2574D2.wem</Path>
+						</File>
+						<File Id="842456180" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_9EBB04B4.wem</Path>
+						</File>
+						<File Id="843523197" Language="SFX">
+							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
+							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_078D5FBC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

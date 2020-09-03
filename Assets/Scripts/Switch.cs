@@ -66,6 +66,12 @@ public class Switch : MonoBehaviour
 
     private void SwapLever() {
         on = !on;
+        if (on) {
+            AkSoundEngine.PostEvent("SwitchOn", gameObject);
+        }
+        else {
+            AkSoundEngine.PostEvent("SwitchOff", gameObject);
+        }
         currentSwitchTime = 0f;
         if (doorTarget) {
             doorTarget.SetOpen(on);
