@@ -1,6 +1,15 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
+	4243861200	TopFloor			\Default Work Unit\Master Audio Bus\TopFloor	
+
+Effect plug-ins	ID	Name	Type				Notes
+	602546716	Room_Large	Wwise RoomVerb			
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+	1588715066	Echoes_Linear	Wwise Delay			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

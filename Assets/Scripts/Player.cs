@@ -14,10 +14,14 @@ public class Player : MonoBehaviour
 
     private Camera cam;
 
+    private float time = 0.0f;
+    public float timeBetween = 0.5f;
+
     private Rigidbody rigidbody;
     // Start is called before the first frame update
     void Start()
     {
+        AkSoundEngine.PostEvent("Theme", gameObject);
         cam = FindObjectOfType<Camera>();
         Cursor.lockState = CursorLockMode.Locked;
         rigidbody = GetComponent<Rigidbody>();
@@ -27,6 +31,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time += Time.deltaTime;
+        
         Vector2 playerInput;
         playerInput.x = Input.GetAxis("Horizontal");
         playerInput.y = Input.GetAxis("Vertical");
@@ -34,6 +40,16 @@ public class Player : MonoBehaviour
         Vector3 direction = Quaternion.Euler(0f, cam.transform.eulerAngles.y, 0f) * new Vector3(playerInput.x, 0f, playerInput.y);
 
         direction.y = rigidbody.velocity.y / speed;
+
+        if (time >= Time.deltaTime) {
+            time = time - timeBetween;
+            if (direction == Vector3.zero) {
+            }
+            else {
+                AkSoundEngine.PostEvent("Footsteps", gameObject);
+            }
+
+        }
 
         rigidbody.velocity = direction * speed;
 

@@ -15,25 +15,29 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1229948536" Name="Environment" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environment"/>
+				<AuxBus Id="4243861200" Name="TopFloor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\TopFloor"/>
+			</IncludedAuxBusses>
 		</SoundBank>
 		<SoundBank Id="2880737896" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
 			<ShortName>MainBank</ShortName>
 			<Path>MainBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3638457343" Name="DoorClose" ObjectPath="\Events\Default Work Unit\DoorClose" DurationType="OneShot" DurationMin="1.408428" DurationMax="2.218194">
+				<Event Id="3638457343" Name="DoorClose" ObjectPath="\Events\Default Work Unit\DoorClose" DurationType="OneShot" DurationMin="0.427107" DurationMax="0.629549">
 					<IncludedMemoryFiles>
 						<File Id="119364568" Language="SFX">
 							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
-							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_489FD1AE.wem</Path>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_A5E5C1EF.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="1.279825" DurationMax="2.184074">
+				<Event Id="1404805401" Name="DoorOpen" ObjectPath="\Events\Default Work Unit\DoorOpen" DurationType="OneShot" DurationMin="0.481174" DurationMax="0.773316">
 					<IncludedMemoryFiles>
 						<File Id="832277301" Language="SFX">
 							<ShortName>403075__fpj666__homemade-hydraulic-hoist.wav</ShortName>
-							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_7B84266A.wem</Path>
+							<Path>SFX\403075__fpj666__homemade-hydraulic-hoist_453FC094.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -54,6 +58,26 @@
 						<File Id="977807801" Language="SFX">
 							<ShortName>end1_4B_100BPM_Post3B.wav</ShortName>
 							<Path>SFX\end1_4B_100BPM_Post3B_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="OneShot" DurationMin="0.290630" DurationMax="0.354740">
+					<IncludedMemoryFiles>
+						<File Id="23002993" Language="SFX">
+							<ShortName>footsteps-4.wav</ShortName>
+							<Path>SFX\footsteps-4_6FA6066B.wem</Path>
+						</File>
+						<File Id="688757800" Language="SFX">
+							<ShortName>footsteps-4.wav</ShortName>
+							<Path>SFX\footsteps-4_54F79A7F.wem</Path>
+						</File>
+						<File Id="798329366" Language="SFX">
+							<ShortName>footsteps-4.wav</ShortName>
+							<Path>SFX\footsteps-4_08CAA606.wem</Path>
+						</File>
+						<File Id="912638740" Language="SFX">
+							<ShortName>footsteps-4.wav</ShortName>
+							<Path>SFX\footsteps-4_C8142006.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -80,6 +104,9 @@
 							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_C605DFDC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1229948536" Name="Environment" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environment"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1242499422" Name="SwitchOn" ObjectPath="\Events\Default Work Unit\SwitchOn" DurationType="OneShot" DurationMin="0.284112" DurationMax="0.809718">
 					<IncludedMemoryFiles>
@@ -102,6 +129,17 @@
 						<File Id="843523197" Language="SFX">
 							<ShortName>403560__lamamakesmusic__lever-small-on-off.wav</ShortName>
 							<Path>SFX\403560__lamamakesmusic__lever-small-on-off_078D5FBC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1229948536" Name="Environment" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environment"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1319017392" Name="Theme" ObjectPath="\Events\Default Work Unit\Theme" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1003011027" Language="SFX">
+							<ShortName>244699__tyops__old-mystery-suspense-theme.wav</ShortName>
+							<Path>SFX\244699__tyops__old-mystery-suspense-theme_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
