@@ -32,6 +32,8 @@ public class Player : MonoBehaviour
         playerInput = Vector2.ClampMagnitude(playerInput, 1f);
         Vector3 direction = Quaternion.Euler(0f, cam.transform.eulerAngles.y, 0f) * new Vector3(playerInput.x, 0f, playerInput.y);
 
+        direction.y = rigidbody.velocity.y / speed;
+
         rigidbody.velocity = direction * speed;
 
         Vector3 rotateValue = new Vector3(0f, -Input.GetAxis("Mouse X"), 0f) * xSensitivity;

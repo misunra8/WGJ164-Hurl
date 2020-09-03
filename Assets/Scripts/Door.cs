@@ -23,6 +23,8 @@ public class Door : MonoBehaviour
     private Vector3 lockEnd = Vector3.zero;
     private Vector3 bottomEnd = new Vector3(0f, -0.5f);
     private Vector3 topEnd = new Vector3(0f, 3.25f);
+
+    private BoxCollider doorCollider;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,7 @@ public class Door : MonoBehaviour
                 top = t;
             }
         }
+        doorCollider = GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
@@ -69,6 +72,7 @@ public class Door : MonoBehaviour
             
             open = state;
             currentTransitionTime = 0f;
+            doorCollider.enabled = !open;
         }
     }
     
