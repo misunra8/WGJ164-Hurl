@@ -14,6 +14,9 @@ public class Startup : MonoBehaviour
     [SerializeField]
     private float showTime;
 
+    [SerializeField]
+    private bool clickAndPlay = true;
+
     private float currentDelay, currentShow;
 
     private bool showFirst = true;
@@ -58,7 +61,7 @@ public class Startup : MonoBehaviour
                 clickToPlay.color = c;
             }
         }
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) && clickAndPlay) {
             SceneManager.LoadScene("Level1");
         }
     }
