@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138479705}
   - component: {fileID: 138479706}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 422129258}
   - component: {fileID: 422129259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 481508829}
   - component: {fileID: 481508828}
   - component: {fileID: 481508827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: NWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 702478926}
   - component: {fileID: 702478925}
   - component: {fileID: 702478924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +756,7 @@ GameObject:
   - component: {fileID: 850671419}
   - component: {fileID: 850671418}
   - component: {fileID: 850671417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 871401136}
   - component: {fileID: 871401135}
   - component: {fileID: 871401134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +944,7 @@ GameObject:
   - component: {fileID: 939090019}
   - component: {fileID: 939090018}
   - component: {fileID: 939090017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948982822}
   - component: {fileID: 948982823}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ MonoBehaviour:
     type: 3}
   targeting:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   maxDist: 50
   throwSpeed: 35
 --- !u!1 &1213753030
@@ -1399,7 +1399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213753031}
   - component: {fileID: 1213753032}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1242818186}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1603,7 +1603,7 @@ GameObject:
   - component: {fileID: 1461880222}
   - component: {fileID: 1461880221}
   - component: {fileID: 1461880220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: EWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580582651}
   - component: {fileID: 1580582652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1870,7 +1870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1651441333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1908,7 +1908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1782937914}
   - component: {fileID: 1782937915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ceiling (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5794045718437635428}
   - component: {fileID: 1511826657503878187}
   - component: {fileID: 6246314669190919084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 2525453087704702076}
   - component: {fileID: 329680670409173290}
   - component: {fileID: 8354789283430391848}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8115759073159463304}
   - component: {fileID: -972577449047214930}
-  m_Layer: 0
+  - component: {fileID: 2480321776690856669}
+  m_Layer: 8
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,6 +207,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counterDoor: {fileID: 0}
   transitionTime: 0
+--- !u!65 &2480321776690856669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115759073159463305}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.5, z: 0.25}
+  m_Center: {x: 0, y: 1.25, z: 0}
 --- !u!1 &8115759074236021641
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +231,7 @@ GameObject:
   - component: {fileID: 8115759074236021640}
   - component: {fileID: 8115759074236021637}
   - component: {fileID: 8115759074236021642}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lock
   m_TagString: Untagged
   m_Icon: {fileID: 0}

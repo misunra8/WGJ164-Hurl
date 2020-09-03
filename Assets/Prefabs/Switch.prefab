@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1551958691410293889}
   - component: {fileID: 8822010501637605544}
   - component: {fileID: 3630147330434520626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LeverBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 1102261053106386362}
   - component: {fileID: 130147068602178956}
   - component: {fileID: -1208392193096443992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Switch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 5916450630166294216}
   - component: {fileID: 7028840598398705395}
   - component: {fileID: 2580774016589463063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,7 +276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7870086008593993200}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lever
   m_TagString: Untagged
   m_Icon: {fileID: 0}
