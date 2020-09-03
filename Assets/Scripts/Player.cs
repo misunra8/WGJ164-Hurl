@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         rigidbody = GetComponent<Rigidbody>();
         Physics.IgnoreLayerCollision(9, 10);
+        Physics.IgnoreLayerCollision(10, 11);
     }
 
     // Update is called once per frame
