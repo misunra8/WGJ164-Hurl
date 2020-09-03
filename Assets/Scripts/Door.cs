@@ -39,6 +39,9 @@ public class Door : MonoBehaviour
             }
         }
         doorCollider = GetComponent<BoxCollider>();
+        if (counterDoor) {
+            counterDoor.SetOpen(!open);
+        }
     }
 
     // Update is called once per frame
