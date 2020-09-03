@@ -91,6 +91,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="StartGame" ID="{EDA381C1-9ABF-4E7E-8335-3D37D46C0C71}">
+					<ChildrenList>
+						<Action Name="" ID="{A7B342A0-E62A-416E-B317-9CAD2A9EB3DF}" ShortID="709217301">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start" ID="{0ADB8652-96F4-4705-B9B7-7A866CFA41D9}" WorkUnitID="{F7189C2C-F719-40D9-BA89-42ED8CEAACE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StickHit" ID="{A7C1F062-EA23-46EB-8545-8045A6373CB3}">
+					<ChildrenList>
+						<Action Name="" ID="{38B2F50A-EA84-4C73-9821-44C7B8BE5CE1}" ShortID="170288089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StickCollide" ID="{DFBEC59B-D3D2-4F65-99AF-C2D4E54207EC}" WorkUnitID="{9608B390-511F-4BCA-96A4-891BC7E28CE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndGame" ID="{0C21F63E-CB04-44F2-A0FD-8F1438DB0FC9}">
+					<ChildrenList>
+						<Action Name="" ID="{8791DB61-20A7-4359-9A75-D61AC2984C0D}" ShortID="777665259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End" ID="{FDBF67BC-8288-4615-87AD-3E2280BB268F}" WorkUnitID="{F7189C2C-F719-40D9-BA89-42ED8CEAACE6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

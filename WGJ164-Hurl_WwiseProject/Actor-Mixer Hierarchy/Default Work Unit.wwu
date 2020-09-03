@@ -891,6 +891,153 @@
 						<Panner Name="" ID="{1F4D334B-5245-4C4F-9C22-6DD554E7DFC3}"/>
 					</PositioningInfo>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="StickCollide" ID="{DFBEC59B-D3D2-4F65-99AF-C2D4E54207EC}" ShortID="215189326">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="branch" ID="{F545247A-8EC5-4CBB-A079-67DEC97B1673}" ShortID="765169926">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="524233__sheyvan__breaking-tree-branches" ID="{6587D77C-30F4-4A02-B6D7-10DF651AB15A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0650594681726646"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.497745593688492"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>524233__sheyvan__breaking-tree-branches.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="358942270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="524233__sheyvan__breaking-tree-branches" ID="{6587D77C-30F4-4A02-B6D7-10DF651AB15A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="branch_01" ID="{DA52AB5A-BB5B-480F-AE27-18E2EB11B497}" ShortID="101828248">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="524233__sheyvan__breaking-tree-branches" ID="{182C00B9-9440-4A71-BDB9-2E39F49ECF8E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.976349065353881"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.59549725313927"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>524233__sheyvan__breaking-tree-branches.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="11209741"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="524233__sheyvan__breaking-tree-branches" ID="{182C00B9-9440-4A71-BDB9-2E39F49ECF8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="branch_02" ID="{A16B4DFC-5BE2-47F7-B0B3-78317658F5D1}" ShortID="522824680">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="524233__sheyvan__breaking-tree-branches" ID="{110A1694-A4CE-43E8-BDC3-81FCABDEB62A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.976349065353881"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.78600438784247"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>524233__sheyvan__breaking-tree-branches.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="377767501"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="524233__sheyvan__breaking-tree-branches" ID="{110A1694-A4CE-43E8-BDC3-81FCABDEB62A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="branch_03" ID="{5CAE78A1-64F1-4F6F-8791-A6AACD239A6B}" ShortID="460342885">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="524233__sheyvan__breaking-tree-branches" ID="{DCE7AFB2-5B36-49AC-BAB1-85178A52A18A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.92888473886986"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.59565971033105"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>524233__sheyvan__breaking-tree-branches.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65960790"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="524233__sheyvan__breaking-tree-branches" ID="{DCE7AFB2-5B36-49AC-BAB1-85178A52A18A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="branch_04" ID="{6DF7B142-26EC-4704-B88E-DAC554E54DE3}" ShortID="511819213">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="524233__sheyvan__breaking-tree-branches" ID="{51B5B53F-AE63-4F99-8D4B-AEBA595B524E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.85776947773973"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.59598462471461"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>524233__sheyvan__breaking-tree-branches.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678188120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="524233__sheyvan__breaking-tree-branches" ID="{51B5B53F-AE63-4F99-8D4B-AEBA595B524E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

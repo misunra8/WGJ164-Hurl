@@ -171,6 +171,277 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Start" ID="{0ADB8652-96F4-4705-B9B7-7A866CFA41D9}" ShortID="638880759">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="216050__wluna__seeking-the-unknown" ID="{E8B3430C-BAD1-42E7-8224-20DD9A92708F}" ShortID="341329398">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="24576.1041666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="216050__wluna__seeking-the-unknown" ID="{E1E9FFC9-0826-4BFB-B247-12B9C5ECBBF3}" ShortID="859098541">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="216050__wluna__seeking-the-unknown" ID="{783D3BEE-EDA5-4FC6-8188-6FA58F6B7EF1}">
+											<Language>SFX</Language>
+											<AudioFile>216050__wluna__seeking-the-unknown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866767559"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{972CD7A2-691A-4AF8-8048-2DCADB016534}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A281D38C-5678-4C62-8F19-CFFCD5FEB743}">
+											<ClipList>
+												<MusicClip Name="216050__wluna__seeking-the-unknown" ID="{5A23CD29-920D-4367-A720-AA169EAA7D53}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="24076.1041666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="216050__wluna__seeking-the-unknown" ID="{783D3BEE-EDA5-4FC6-8188-6FA58F6B7EF1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DE2C4549-038F-4A2B-AE34-39DC9BC2E9C8}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="1000"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{470B6BA0-25AB-418B-9788-7799F463E1D0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21251.3234796585"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{3A0444AA-A669-4B02-B9AD-CC2FB4B1FCC7}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{202ABF15-ABC2-4D2F-BBAB-A1E0E4F7CF7F}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{597B22F3-FEF1-443A-8B91-84A8956E4A64}" ShortID="926407359">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{83294340-DDAC-4D3E-A837-A6235A1E7859}" ShortID="174991945">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="216050__wluna__seeking-the-unknown" ID="{E8B3430C-BAD1-42E7-8224-20DD9A92708F}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="End" ID="{FDBF67BC-8288-4615-87AD-3E2280BB268F}" ShortID="230004497">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="216050__wluna__seeking-the-unknown" ID="{E9A56F81-064E-4E20-9966-6234550B629D}" ShortID="201586216">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="41576.1041666667"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A66604A-F8A3-437E-8D47-2DEAFADCBF61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="216050__wluna__seeking-the-unknown" ID="{565C23BF-E4FE-4E4F-831E-3FFDF321AFE2}" ShortID="603737707">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C9F3C92C-6A9D-4F3C-81EA-777B238CA3AB}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="216050__wluna__seeking-the-unknown" ID="{9CA1A565-F1AB-4552-80BE-DF8AEE754A83}">
+											<Language>SFX</Language>
+											<AudioFile>216050__wluna__seeking-the-unknown.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="866767559"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B56F6C6B-6754-4596-91D8-6A5960EA6925}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{78F9CF50-27A7-43B1-94C7-744A6136D737}">
+											<ClipList>
+												<MusicClip Name="216050__wluna__seeking-the-unknown" ID="{ACD0F6B1-98A4-4060-8E98-30FBC2B50F17}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="18500"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="22500"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2818.17046093311"/>
+														<Property Name="PlayAt" Type="Real64" Value="-18500"/>
+													</PropertyList>
+													<AudioSourceRef Name="216050__wluna__seeking-the-unknown" ID="{9CA1A565-F1AB-4552-80BE-DF8AEE754A83}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{6FFB0309-A712-4792-9F33-78B487B7663C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>18.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{0C981DEE-B5C5-4CDE-8EB2-0F480F3442E3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>18.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{6D387338-7DF3-4EBE-93FF-EE5DD21E855C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>18.5</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>22.5</XPos>
+																		<YPos>-3.38285</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CDAF8709-FF1A-4507-80B4-C266365759F5}"/>
+								<MusicCue Name="Exit Cue" ID="{792FAC64-29B1-4C9A-A5BC-7F2D90551F1A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="4000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{482DC93F-3D88-41BF-ACB7-6520428C62AF}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{EAD117E6-41CA-433A-B825-D75ECEE29240}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{696EC83A-0175-4D80-A92D-40A3F1280223}" ShortID="1022655944">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{EB11432E-ABDC-4D5B-BC7F-21A442FB1955}" ShortID="358738627">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="216050__wluna__seeking-the-unknown" ID="{E9A56F81-064E-4E20-9966-6234550B629D}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

@@ -20,6 +20,21 @@
 				<AuxBus Id="4243861200" Name="TopFloor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\TopFloor"/>
 			</IncludedAuxBusses>
 		</SoundBank>
+		<SoundBank Id="2197986718" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GameEnd</ObjectPath>
+			<ShortName>GameEnd</ShortName>
+			<Path>GameEnd.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4264815106" Name="EndGame" ObjectPath="\Events\Default Work Unit\EndGame" DurationType="OneShot" DurationMin="4.000000" DurationMax="4.000000">
+					<IncludedMemoryFiles>
+						<File Id="866767559" Language="SFX">
+							<ShortName>216050__wluna__seeking-the-unknown.wav</ShortName>
+							<Path>SFX\216050__wluna__seeking-the-unknown_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="2880737896" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
 			<ShortName>MainBank</ShortName>
@@ -113,6 +128,30 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="476942474" Name="StickHit" ObjectPath="\Events\Default Work Unit\StickHit" DurationType="OneShot" DurationMin="0.432686" DurationMax="0.809655">
+					<IncludedMemoryFiles>
+						<File Id="11209741" Language="SFX">
+							<ShortName>524233__sheyvan__breaking-tree-branches.wav</ShortName>
+							<Path>SFX\524233__sheyvan__breaking-tree-branches_7A738F35.wem</Path>
+						</File>
+						<File Id="65960790" Language="SFX">
+							<ShortName>524233__sheyvan__breaking-tree-branches.wav</ShortName>
+							<Path>SFX\524233__sheyvan__breaking-tree-branches_A98D2B2C.wem</Path>
+						</File>
+						<File Id="358942270" Language="SFX">
+							<ShortName>524233__sheyvan__breaking-tree-branches.wav</ShortName>
+							<Path>SFX\524233__sheyvan__breaking-tree-branches_74F609EA.wem</Path>
+						</File>
+						<File Id="377767501" Language="SFX">
+							<ShortName>524233__sheyvan__breaking-tree-branches.wav</ShortName>
+							<Path>SFX\524233__sheyvan__breaking-tree-branches_7724C3F3.wem</Path>
+						</File>
+						<File Id="678188120" Language="SFX">
+							<ShortName>524233__sheyvan__breaking-tree-branches.wav</ShortName>
+							<Path>SFX\524233__sheyvan__breaking-tree-branches_FCF34CD8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3953897988" Name="SwitchOff" ObjectPath="\Events\Default Work Unit\SwitchOff" DurationType="OneShot" DurationMin="0.340934" DurationMax="0.653457">
 					<IncludedMemoryFiles>
 						<File Id="244361029" Language="SFX">
@@ -172,6 +211,21 @@
 						<File Id="1003011027" Language="SFX">
 							<ShortName>244699__tyops__old-mystery-suspense-theme.wav</ShortName>
 							<Path>SFX\244699__tyops__old-mystery-suspense-theme_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4058101365" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\GameStart</ObjectPath>
+			<ShortName>GameStart</ShortName>
+			<Path>GameStart.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1521187885" Name="StartGame" ObjectPath="\Events\Default Work Unit\StartGame" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="866767559" Language="SFX">
+							<ShortName>216050__wluna__seeking-the-unknown.wav</ShortName>
+							<Path>SFX\216050__wluna__seeking-the-unknown_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

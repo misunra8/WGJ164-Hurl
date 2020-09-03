@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	476942474	StickHit			\Default Work Unit\StickHit	
 	529726532	End			\Default Work Unit\End	
 	823131329	Spin			\Default Work Unit\Spin	
 	1242499422	SwitchOn			\Default Work Unit\SwitchOn	
@@ -9,20 +10,25 @@ Event	ID	Name			Wwise Object Path	Notes
 	3953897988	SwitchOff			\Default Work Unit\SwitchOff	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11209741	branch_01	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\524233__sheyvan__breaking-tree-branches_7A738F35.wem		\Actor-Mixer Hierarchy\Default Work Unit\StickCollide\branch_01		11353
 	23002993	footsteps-4_02	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\footsteps-4_0DC178E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps-4_02		5387
 	46165723	spin_05	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_98AE66F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spin\spin_05		6186
+	65960790	branch_03	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\524233__sheyvan__breaking-tree-branches_A98D2B2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\StickCollide\branch_03		10900
 	119364568	doorClose	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403075__fpj666__homemade-hydraulic-hoist_85A87296.wem		\Actor-Mixer Hierarchy\Default Work Unit\doorClose		6203
 	184090203	403560__lamamakesmusic__lever-small-on-off	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_C8D73CC1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOn\403560__lamamakesmusic__lever-small-on-off		8517
 	244361029	403560__lamamakesmusic__lever-small-on-off_03	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_7745D114.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOff\403560__lamamakesmusic__lever-small-on-off_03		5475
 	266181591	end3_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end3_4B_100BPM_Post3B_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end3_4B_100BPM_Post3B		50351
 	273081295	403560__lamamakesmusic__lever-small-on-off_02	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_AE936C1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOn\403560__lamamakesmusic__lever-small-on-off_02		5867
 	311435220	403560__lamamakesmusic__lever-small-on-off_04	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_2EF66CDA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOn\403560__lamamakesmusic__lever-small-on-off_04		3492
+	358942270	branch	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\524233__sheyvan__breaking-tree-branches_74F609EA.wem		\Actor-Mixer Hierarchy\Default Work Unit\StickCollide\branch		8891
+	377767501	branch_02	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\524233__sheyvan__breaking-tree-branches_7724C3F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\StickCollide\branch_02		13869
 	378616860	403560__lamamakesmusic__lever-small-on-off_05	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_BA63415D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOff\403560__lamamakesmusic__lever-small-on-off_05		4054
 	509479799	403560__lamamakesmusic__lever-small-on-off_02	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_119B366A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOff\403560__lamamakesmusic__lever-small-on-off_02		6840
 	574114880	403560__lamamakesmusic__lever-small-on-off_01	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_7B61DA42.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOff\403560__lamamakesmusic__lever-small-on-off_01		5122
 	613644963	end4_4B_100BPM_Post3B	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\end4_4B_100BPM_Post3B_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\End\end4_4B_100BPM_Post3B		55587
 	650031983	spin_06	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_FD73FD8F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spin\spin_06		7192
 	654083004	spin_04	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_75015026.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spin\spin_04		5554
+	678188120	branch_04	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\524233__sheyvan__breaking-tree-branches_FCF34CD8.wem		\Actor-Mixer Hierarchy\Default Work Unit\StickCollide\branch_04		16032
 	688757800	footsteps-4_01	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\footsteps-4_E6B724C4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps-4_01		5295
 	715657970	403560__lamamakesmusic__lever-small-on-off_04	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\403560__lamamakesmusic__lever-small-on-off_932EB686.wem		\Actor-Mixer Hierarchy\Default Work Unit\Switch\SwitchOff\403560__lamamakesmusic__lever-small-on-off_04		6308
 	724655351	spin_03	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\274928_theshaggyfreak_cat-toy-spinning-ball (online-audio-converter.com)_8CE1B97B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spin\spin_03		5015

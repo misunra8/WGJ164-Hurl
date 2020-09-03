@@ -8,11 +8,26 @@
 						<ObjectRef Name="End" ID="{E7367E05-B82B-4540-ACEE-5096436A3337}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SwitchOn" ID="{99263D6F-5DC4-45E1-81F3-97EE9FDB0CE3}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Theme" ID="{6F482241-7CFD-4621-B115-903EB0990E1D}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StickHit" ID="{A7C1F062-EA23-46EB-8545-8045A6373CB3}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spin" ID="{C394531E-C58A-48F6-BBBD-68C4B6CB31B5}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{11D2E00F-A6F4-4A75-963C-38377389DF1F}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorOpen" ID="{73BDBAA0-5CAF-4F1F-8068-0E81BF548C09}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DoorClose" ID="{97E0FC57-83D3-4F68-BF38-34320016A0B1}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SwitchOff" ID="{2F3FBA74-D038-4FC1-801D-5E7C01B455F4}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GameStart" ID="{355D5A80-C297-4131-BCE0-ABBD16166EE7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StartGame" ID="{EDA381C1-9ABF-4E7E-8335-3D37D46C0C71}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="GameEnd" ID="{1B271CCF-4857-4ABD-8A2A-413A08124C58}">
+					<ObjectInclusionList>
+						<ObjectRef Name="EndGame" ID="{0C21F63E-CB04-44F2-A0FD-8F1438DB0FC9}" WorkUnitID="{B7F94271-B255-40C6-8903-9FA839CE1C74}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

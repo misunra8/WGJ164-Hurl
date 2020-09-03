@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1521187885	StartGame			\Default Work Unit\StartGame	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	866767559	216050__wluna__seeking-the-unknown	C:\Users\misun\Desktop\Early Projects\WGJ164-Hurl\WGJ164-Hurl_WwiseProject\.cache\Mac\SFX\216050__wluna__seeking-the-unknown_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Start\216050__wluna__seeking-the-unknown\216050__wluna__seeking-the-unknown		286135
+

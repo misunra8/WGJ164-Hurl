@@ -16,8 +16,11 @@ namespace AK
         static const AkUniqueID DOORCLOSE = 3638457343U;
         static const AkUniqueID DOOROPEN = 1404805401U;
         static const AkUniqueID END = 529726532U;
+        static const AkUniqueID ENDGAME = 4264815106U;
         static const AkUniqueID FOOTSTEPS = 2385628198U;
         static const AkUniqueID SPIN = 823131329U;
+        static const AkUniqueID STARTGAME = 1521187885U;
+        static const AkUniqueID STICKHIT = 476942474U;
         static const AkUniqueID SWITCHOFF = 3953897988U;
         static const AkUniqueID SWITCHON = 1242499422U;
         static const AkUniqueID THEME = 1319017392U;
@@ -26,6 +29,8 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID GAMEEND = 2197986718U;
+        static const AkUniqueID GAMESTART = 4058101365U;
         static const AkUniqueID MAINBANK = 2880737896U;
     } // namespace BANKS
 

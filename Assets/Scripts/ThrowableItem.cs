@@ -103,6 +103,7 @@ public class ThrowableItem : MonoBehaviour
     private void OnCollisionEnter(Collision collision) {
         Switch s = collision.gameObject.GetComponent<Switch>();
         if (s) {
+            AkSoundEngine.PostEvent("StickHit", gameObject);
             Debug.Log("Hit a switch");
             s.CheckLeverSwitch(currentDirection);
         }
