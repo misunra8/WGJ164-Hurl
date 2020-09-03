@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8822010501637605544}
   - component: {fileID: 3630147330434520626}
   m_Layer: 0
-  m_Name: LeverCube
+  m_Name: LeverBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,6 +142,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   acceptedAngle: 45
   switchTime: 0.2
+  doorTarget: {fileID: 0}
+  baseShader: {fileID: 4800000, guid: 3a453c32a0ce147488be3492da5bf191, type: 3}
+  selectShader: {fileID: 4800000, guid: be790124e5732e944ad5c5429fd53b1e, type: 3}
 --- !u!65 &130147068602178956
 BoxCollider:
   m_ObjectHideFlags: 0

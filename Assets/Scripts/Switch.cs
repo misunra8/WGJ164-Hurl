@@ -11,6 +11,9 @@ public class Switch : MonoBehaviour
 
     private Transform lever;
 
+    private Transform baseBlock;
+    private Transform leverBlock;
+
     [SerializeField]
     private float switchTime = 0.5f;
 
@@ -19,15 +22,32 @@ public class Switch : MonoBehaviour
     [SerializeField]
     private Door doorTarget;
 
+
+    [SerializeField]
+    private Shader baseShader;
+
+    [SerializeField]
+    private Shader selectShader;
+
+    private bool aim;
+
     // Start is called before the first frame update
     void Start()
     {
         foreach (Transform t in transform) {
             if (t.name == "Lever") {
                 lever = t;
+            } else if (t.name == "Base") {
+                baseBlock = t;
+            }
+        }
+        foreach (Transform t in lever) {
+            if (t.name == "LeverBlock") {
+                leverBlock = t;
             }
         }
         currentSwitchTime = switchTime;
+        aim = false;
     }
 
     // Update is called once per frame
@@ -68,5 +88,17 @@ public class Switch : MonoBehaviour
         Gizmos.color = Color.yellow;
         // perfect
         Gizmos.DrawCube(transform.position + transform.forward, Vector3.one);
+    }
+
+    public void SetAim(bool aim) {
+        if (aim) {
+            baseBlock.GetComponent<MeshRenderer>().materials[0].shader = selectShader;
+            leverBlock.GetComponent<MeshRenderer>().materials[0].shader = selectShader;
+        } else {
+            baseBlock.GetComponent<MeshRenderer>().materials[0].shader = baseShader;
+            leverBlock.GetComponent<MeshRenderer>().materials[0].shader = baseShader;
+        }
+        this.aim = aim;
+        Debug.Log("Aim is now " + aim + " pointing at " + this);
     }
 }
